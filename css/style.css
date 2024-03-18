@@ -672,10 +672,12 @@ img {
     display: flex;
     flex-direction: column;
   }
-  .detail-descrip-img{
+
+  .detail-descrip-img {
     flex-direction: column;
   }
-  .detail-descrip-img img{
+
+  .detail-descrip-img img {
     margin-bottom: 20px;
   }
 }
@@ -869,9 +871,11 @@ img {
   color: #9F9F9F;
   margin-bottom: 50px;
 }
+
 .detail-des td {
   padding-bottom: 20px;
 }
+
 .detail-icons {
   display: flex;
   align-items: center;
@@ -957,6 +961,10 @@ img {
   padding-right: 30px;
 }
 
+.cart-left table {
+  border-collapse: collapse;
+}
+
 .cart-left td {
   font-size: 16px;
   text-align: center;
@@ -978,7 +986,7 @@ img {
   padding: 8px 14px;
   border: 1px solid var(--fade-color);
   border-radius: 5px;
-  
+
 }
 
 .cart-right {
@@ -1028,9 +1036,11 @@ img {
   .cart-img-mini {
     min-width: 50px;
   }
-  .card-del-btn{
+
+  .card-del-btn {
     min-width: 30px;
   }
+
   .cart-left td {
     font-size: 14px;
     text-align: center;
@@ -1124,17 +1134,21 @@ img {
 .suss-btn button:hover {
   border: 1px solid var(--fade-color);
 }
+
 @media (max-width: 992px) {
-  .checkout{
+  .checkout {
     flex-direction: column;
   }
-  .check-price{
+
+  .check-price {
     margin: auto;
   }
-  .check-name{
+
+  .check-name {
     flex-direction: column;
   }
 }
+
 /*-------------Login--------------------*/
 .log-in {
   display: flex;
@@ -1194,7 +1208,8 @@ img {
   background-color: #F9F1E7;
   border-radius: 10px;
 }
-.login-button:hover{
+
+.login-button:hover {
   color: #FFFFFF;
   background-color: #B88E2F;
   cursor: pointer;
@@ -1235,7 +1250,7 @@ img {
   color: #ffffff;
   margin-right: 75px;
   flex: 1;
-cursor: pointer;
+  cursor: pointer;
 }
 
 .login-fb p {
