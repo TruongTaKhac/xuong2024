@@ -64,7 +64,9 @@ img {
 .header-item-user {
   cursor: pointer;
 }
-
+.header-item-user:hover{
+  opacity: .5;
+}
 .button-mobile {
   text-align: right;
   display: inline-block;
@@ -350,7 +352,20 @@ img {
   display: flex;
   justify-content: space-between;
 }
+.shop-item{
+  overflow: hidden;
+  transition: all .5s ease-in-out;
+}
+.shop-item img{
+  transition: all .5s ease-in-out;
+}
+.shop-item:hover img{
+  transform: scale(1.1);
 
+}
+.shop-item:hover{
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.22);
+}
 .page-shop--item {
   padding: 20px 27px;
   background-color: #f9f1e7;
@@ -466,14 +481,16 @@ img {
   flex-flow: column;
   position: relative;
 }
-
-.blog-about {
+.blog-about:hover {
+opacity: .5;
+}
+.blog-about a{
   display: flex;
-
   align-items: center;
   position: absolute;
   bottom: 15px;
   right: 0;
+  color: #000000;
 }
 
 .blog-about img {
@@ -495,7 +512,9 @@ img {
   color: #3a3a3a;
   text-decoration: none;
 }
-
+.post__link:hover{
+  opacity: .5;
+}
 .post__readmore {
   align-self: flex-end;
   text-decoration: none;
@@ -635,20 +654,21 @@ img {
     display: flex;
     flex-direction: column;
   }
-
   .detail-img {
+
     flex-direction: column-reverse;
   }
 
   .detail-img_item {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
   }
 
   .detail-img_item img {
-    margin-left: 30px;
-    margin-top: 30px;
+    padding: 30px;
   }
+  
 
   .detail-btn {
     flex-direction: column;
@@ -692,7 +712,7 @@ img {
 }
 
 .detail-img_item {
-  width: 76px;
+width: 76px;
 }
 
 .detail-img_item img {
@@ -1059,7 +1079,11 @@ img {
 .check-form {
   flex: 1;
 }
-
+.check-form input{
+  box-sizing: border-box;
+  padding-left: 10px;
+  font-size: 120%;
+}
 .check-form h3 {
   font-size: 36px;
 }
@@ -1154,14 +1178,16 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 800px;
-  height: 600px;
+  max-width: 800px;
+  height: auto;
   margin: auto;
   background-color: #FFFFFF;
   box-shadow: 0px 0px 20px 1px var(--fade-color);
   border-radius: 5px;
-  margin-top: 100px;
+  margin-top: 70px;
+  padding-bottom: 30px;
   position: relative;
+
 }
 
 .login-close {
@@ -1220,7 +1246,12 @@ img {
   display: flex;
   justify-content: center;
 }
-
+.login-fb:hover{
+  opacity: .7;
+}
+.login-gg:hover{
+  opacity: .5;
+}
 .login-gg {
   background-color: #fff;
   border: 1px solid #000000;
