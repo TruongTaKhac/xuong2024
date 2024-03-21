@@ -377,6 +377,7 @@ img {
 
 .page-shop--item:hover {
   background-color: #b88e2f;
+  color: #ffffff;
 }
 
 .search-list {
@@ -663,6 +664,7 @@ opacity: .5;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 30px;
+    height: 100px;
   }
 
   .detail-img_item img {
